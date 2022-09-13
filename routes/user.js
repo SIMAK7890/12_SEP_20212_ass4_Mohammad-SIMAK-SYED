@@ -2,7 +2,7 @@ import express from "express";
 import User from "../models/userModel.js";
 import Auth from '../Waremodel/auth.js';
 
-import { register, signIn, insertMany, updateAge, deleteUser } from "../controllers/user.js";
+import { register, signIn, insertMany, updateAge, deleteUser } from "../controll/user.js";
 
 const router = express.Router();
 
